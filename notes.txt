@@ -1,0 +1,52 @@
+App Plan
+- use video.js to play movie traylers
+
+Trailers Source: 
+http://www.hd-trailers.net/library/0/
+
+//Docks
+- Tutorial video.js
+http://docs.videojs.com/tutorial-setup.html
+
+- Video.js Tutorial - Part 1: Introduction
+https://www.youtube.com/watch?v=h-I3R2JOMsI
+https://github.com/videojs/video.js/wiki/Tutorials
+
+- video.js at npm
+https://www.npmjs.com/package/video.js
+
+
+//Task 1
+- install video.js
+$ npm install --save-dev video.js
+
+//Task 2 
+- create github repo and push files to github
+on github
+New repo > movie-trailer-app
+
+$ git remote add origin git@github.com:zeljkoGitHub/movie-trailer-app.git
+$ git push -u origin master
+
+Note: my local git is saving all movie clip files
+Note_2: live-server won't start if I use npm, that is if I have node_modules folder in my root  
+
+
+- Upload failed
+Github recommends maximum file size to be 50mb.
+And file limit is 100mb.
+Error messages:
+	"remote: warning: File movie_clips/bakery-in-brooklyn-trailer-1_h720p.mov is 54.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB"
+	"remote: error: File movie_clips/bridewars-tlrc_h720p.mov is 120.57 MB; this exceeds GitHub's file size limit of 100.00 MB
+	To github.com:zeljkoGitHub/movie-trailer-app.git
+ 	! [remote rejected] master -> master (pre-receive hook declined)
+	error: failed to push some refs to 'git@github.com:zeljkoGitHub/movie-trailer-app.git'"
+
+I will download smaller files using youtbe-dl
+
+//Task_3
+- with youtube-dl download new movie trailers 
+1. Bambi
+2. Oscar
+3. Home Alone
+4. Good Felos 

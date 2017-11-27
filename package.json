@@ -1,0 +1,14 @@
+{
+  "name": "movie-trailer-app",
+  "version": "1.0.0",
+  "description": "Web app for playing movie trailers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zeljko",
+  "license": "MIT",
+  "devDependencies": {
+    "video.js": "^6.4.0"
+  }
+}
