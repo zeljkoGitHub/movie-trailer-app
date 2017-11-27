@@ -44,9 +44,37 @@ Error messages:
 
 I will download smaller files using youtbe-dl
 
+
 //Task_3
+- delete old trailer and there images
+- delete local git folder to remove chashed old trailers
+
 - with youtube-dl download new movie trailers 
 1. Bambi
 2. Oscar
 3. Home Alone
-4. Good Felos 
+4. Goodfellas
+
+- add movie images
+- new git init localy
+
+- push changes to github
+$ git remote add origin git@github.com:zeljkoGitHub/movie-trailer-app.git
+$ git push -u origin master 
+
+
+
+//Task_4
+- host the app on github pages
+
+github pages url is 
+https://zeljkogithub.github.io/movie-trailer-app/ 
+
+- github pages errors:
+	Refused to load the image 'https://zeljkogithub.github.io/favicon.ico' because it violates the following Content Security Policy directive: "img-src data:".
+
+	zeljkogithub.github.io/ Failed to load resource: the server responded with a status of 404 ()
+
+- add favicon	
+- create favicon with: 
+https://realfavicongenerator.net
